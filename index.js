@@ -13,7 +13,7 @@ require('./app/controllers/receitas')(app);
 
 
 app.get('/', (req , res) => {
-    res.send('Opa meu mel!');
+    res.send('Running!');
 });
 
 
